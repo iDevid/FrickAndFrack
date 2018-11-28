@@ -159,6 +159,20 @@ namespace Frick_and_Frack
         private string property;
         public SputInCiel(string property) => this.property = property;
     }
+    
+        // Spirito di natura sia benefica che malefica.
+    
+    // Il munaciello tenderebbe ad esprimersi, nei confronti degli abitanti della casa dove si appalesa, con tipiche manifestazioni:
+    // - di simpatia (lasciando monete e soldi nascosti dentro l'abitazione, oppure facendo scherzi innocui che possono essere trasformati in numeri da giocare al lotto);
+    // - di antipatia (nascondendo oggetti, rompendo piatti e altre stoviglie, soffiando nelle orecchie dei dormienti);
+    // - di apprezzamento (sfiorando con palpeggiamenti le belle donne).
+    
+    // Tende a indicare che non sai se esprimere disprezzo o gioia nel vedere questo codice.
+    public class Munaciell : Attribute
+    {
+        private string property;
+        public Munaciell(string property) => this.property = property;
+    }
 
 
 }
